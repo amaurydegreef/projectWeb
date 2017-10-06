@@ -1,0 +1,88 @@
+/*---------------------------------------------------------------------
+----------------------------- Connection ------------------------------
+---------------------------------------------------------------------*/
+
+.div_form_connect{
+	width: 400px; 
+	height: 300px; 
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	border-radius: 30px;
+}
+
+#title_form_connect{
+	height: 20%;
+	background-color: #0275d8;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+}
+
+#title_form_connect h2{
+	margin-left: 30px;
+	color: white;
+}
+
+#cont_form_connect{
+	height: 120px;
+}
+
+#img_connect{
+	margin-left: 15px;
+}
+
+p{
+	color: white;
+	cursor: pointer;
+	width: 200px;
+}
+
+p:hover{
+  border-bottom: 2px solid white;
+  width: 165px;
+}
+
+#login{
+	border: 0px;
+	border-bottom: 1px solid grey;}
+
+#login:focus{
+	border-bottom: 2px solid rgba(25, 80, 158, 1);
+}
+
+#password{
+	border: 0px;
+	border-bottom: 1px solid grey;}
+
+#password:focus{
+	border-bottom: 2px solid rgba(25, 80, 158, 1);
+}
+
+.form-group {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 15%;
+
+}
+
+.form-group input:focus{
+	border-bottom: 3px solid rgba(25, 80, 158, 1);
+	transition: 0.6s;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.8;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 100%;
+  transform: translate3d(0, -70%, 0);
+  opacity: 1;
+  color: rgba(25, 80, 158, 1);
+}
